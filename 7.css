@@ -1,0 +1,133 @@
+/*
+* @Author: Administrator
+* @Date:   2019-05-06 09:59:50
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-05-27 09:51:40
+*/
+/* 师大头部 */
+/*
+.header-container{
+
+    background-color: #eee; 
+
+}
+
+.header{
+
+    height: 100px;
+
+    width: 1100px;
+
+    margin: 30px auto 0;
+
+    border-top: 5px solid blue;
+
+    border-bottom: 1px solid red;*/
+
+    /* background-color: red; */
+/*
+}
+
+.header img{
+
+    margin-top:10px;
+
+}
+
+.right{
+
+    /*display: inline-block;
+
+    margin-left: 450px;*/
+   /* float:right;
+
+}
+
+.right p{
+
+    text-align: right;
+
+    margin-bottom: 5px;
+
+}
+
+.right input{
+
+    width: 300px;
+
+    height: 30px;
+
+}*/
+/*导航*//*
+.nav{margin:0 auto;height:120px;}*/
+/*块元素浮动后变成"行内元素"的效果*/
+/*子元素浮动以后，父元素高度塌陷*//*浮动元素不能撑开父元素高度，但是写上overflow之后就会计算高度*/
+/*
+.nav li{
+	float:left;
+	width:110px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	color:black;
+	margin-right:10px;
+	margin-bottom:10px;
+
+}
+ .box{
+ 	width:900px;
+ 	height:400px;
+ 	margin:0 auto;
+ 	border:3px dotted red;
+ 	padding:5px;
+ }
+ .left{
+ 	float:left;
+    width:500px;
+    height:300px;
+    background:#ccc;
+ }
+ .box.right{
+ 	float:right;
+ 	width:250px;
+ 	height:300px;
+ 	background:#ccc;
+ }
+ .left li{
+ 	float:left;
+ 	width:230px;
+ 	height:120px;
+ 	margin:10px;
+ 	background-color:green;
+
+ }
+ .right li{width:230px;
+ 	height:90px;
+ 	margin-top:10px;
+ 	background-color:green;}
+*/
+
+    .clear:after{
+        content:"";
+        height:0px;
+        display:block;
+        clear:both;
+    }
+
+ 	.main{
+ 		width:1100px;
+ 		height:100px;
+ 		background-color:#ccc;
+ 		margin:0 auto;
+ 	}
+ 	.main>div{
+ 		width:500px;
+ 		height:300px;
+        border:2px solid red;
+        float:left;
+        overflow:scroll;/*auto自动 hidden隐藏超出部分*/
+ 	}
+
+    .main h3{
+            
+    }
